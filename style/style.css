@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+strong {
+    font-weight: 700;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    background: linear-gradient(#00A86C, #0C4232);
+    height: 100vh;
+}
+
+header {
+    display: inline-block;
+    padding-top: 200px;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 98px;
+    display: inline;
+}
+
+header p{
+    font-style: italic;
+    font-size: 24px;
+    display: inline;
+}
+
+
+header h1, header p{
+    background-color: #E7806D;
+    color: white;
+}
+
+.create-link input {
+    height: 50px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    width: 500px;
+}
+
+input:focus {
+    outline:none;
+}
+
+.create-link input[type=text] {
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+
+::placeholder {
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    padding-left: 10px;
+}
+
+.link-create {
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    background-color: #F29584;
+    color: white;
+    margin-left: 20px;
+    padding: 18.5px 15px;
+}
+
+button:hover {
+    background-color: #E67F6D;
+}
+
+.create-link {
+    padding-top: 100px;
+}
+
+.info {
+    padding-top: 100px;
+    padding-left: 32%;
+    padding-right: 32%;
+}
+
+.info-stat {
+    height: 90px;
+    width: 250px;
+    font-size: 15px;
+    padding-left: 4%;
+    border-radius: 40px;
+    background-color: white;
+    align-items: center;
+    text-align: start;
+}
+
+.info-stat p {
+    line-height: 0.1px;
+}
+
+.info-stat img {
+    width: 69px;
+    height: 69px;
+}
+
+.container-login{
+    padding-top: 250px;
+    text-align: center;
+}
+
+
+.login input {
+    background-color: #00A66B;
+    height: 60px;
+    width: 350px;
+    border: none;
+
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.login input[type=text], input[type=password] {
+    color: white;
+    font-weight: 700;
+}
+
+.login a {
+    color: #00A86C;
+    font-weight: 700;
+}
+
+.login button {
+    background-color: #0C4232;
+    margin-top: 10px;
+    border-radius: 0px 0px 15px 15px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    height: 60px;
+    width: 350px;
+}
+
+.profile-header {
+	padding-top: 70px;
+    background-color: white;
+    border-radius: 10px;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.stat img {
+    width: 59px;
+    height: 59px;
+}
+
+.stat p {
+	line-height: 10px
+}
+
+.stat a {
+    color: #0C4232;
+    text-decoration: none;
+}
+
+.info-stat-text a{
+	text-decoration:none;
+	color: black;
+	line-height: 1px;
+}
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.profile-stats {
+	padding-left: 40px;
+	padding-right: 40px;
+    background-color: white;
+    padding-top: 30px;
+	padding-bottom: 50px;
+	
+}
+
+.container-profile h4{
+	padding-top: 100px
+}
+
+li {
+    list-style-type: "— ";
+}
+
+@media (max-width: 1024px) {
+	
+	.info {
+    padding-left: 22%;
+    padding-right: 22%;
+	}	
+}
+
+@media (max-width: 768px) {
+	.info {
+    padding-left: 12%;
+    padding-right: 12%;
+	}
+}
+
+@media (max-width: 425px) {
+	.info {
+	padding-top: 0px;
+	display: inline-block;
+    padding-left: 0%;
+    padding-right: 0%;
+	}
+	
+	.info-stat{
+		margin-top: 30px
+	}
+	
+	.create-link input {
+    height: 50px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    width: 90%;
+}
+
+	.link-create {
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 20px;
+}
+
+	header {
+		padding-top: 80px
+	}
+	header h1 {
+		font-size: 56px;
+	}
+	
+	.stat p {
+	line-height: 30px
+}
+	
+}
